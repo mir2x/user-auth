@@ -1,0 +1,64 @@
+# Node.js dependencies
+/node_modules
+
+# Logs
+logs
+*.log
+npm-debug.log*
+*.log
+logs/*.log
+logs/**/*.log
+
+# Environment variables
+# .env
+
+# Debugger
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+
+# Coverage directory used by testing frameworks
+coverage/
+.nyc_output/
+
+# Build outputs
+dist/
+build/
+
+# Optional npm cache directory
+.npm/
+
+# ESLint cache
+.eslintcache
+
+# IDE or text editor configurations
+*.swp
+*~
+
+# Optional REPL history
+node_repl_history
+
+# Parcel-bundler cache (if using Parcel)
+/.cache
+
+# Docker files
+docker-compose.override.yml
+docker-compose.debug.yml
+docker-compose.prod.yml
+.dockerignore
+
+# PM2 (process manager) logs
+.pm2/logs/*
+
+# Miscellaneous
+*.bak
+*.tmp
+*.old
+*.orig
